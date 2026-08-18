@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px 8%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            padding: 60px 8%;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin: 15px 0;
+        }
+
+        .hero span {
+            color: #2563eb;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+        }
+
+        .about,
+        .contact {
+            padding: 70px 8%;
+            text-align: center;
+        }
+
+        .about {
+            background: #eef2ff;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #111827;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2>MyProfile</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div>
+            <p>WELCOME TO MY PAGE</p>
+            <h1>Hello, I'm <span>Elizabeth</span></h1>
+            <p>
+                I'm learning software development and DevOps,
+                building projects and exploring cloud technologies.
+            </p>
+
+            <button>View My Work</button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I enjoy learning about web development, automation,
+            cloud computing, and modern software engineering.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <p>Email: ifeoluwaaderoju6@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Elizabeth. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
